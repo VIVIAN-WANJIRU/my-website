@@ -1,0 +1,37 @@
+Body {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+     background-color: rgb(5 173 163);
+     color: black;
+}
+
+h1 {
+    background-color: rgb(5 173 163);
+    /* color: rgb(14, 13, 13); */
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+} 
+
+.formDiv {
+    max-height: 100m;
+    display: block;
+    text-align: center;
+    background-color: rgb(226 232 240);
+    
+}
+.formDiv2 {
+    background-color: rgb(226 232 240);
+    text-align: center;
+    margin-left: 0.125rem;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+.formDiv3 {
+    background-color: rgb(226 232 240);
+    
+    text-align: center;
+
+}
+ 

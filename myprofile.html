@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Profile</title>
+
+    <style>
+      .nav-sect {
+        background-color: grey;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100;
+      }
+      .nav-sect img {
+        max-width: 5%;
+      }
+      .nav-sect nav {
+        float: right;
+      }
+      .nav-sect nav ul li {
+        display: inline;
+        color: black;
+        margin: 10px;
+      }
+      .header-sect {
+        position: relative;
+        margin-top: 100px;
+      }
+      .header-sect p {
+        margin-top: 0px;
+      }
+      .header-sect img {
+        z-index: o;
+        object-fit: contain;
+      }
+      .header-sect .mytext-sect {
+        position: absolute;
+        left: 35%;
+        top: 35%;
+        color: white;
+      }
+      .header-sect .mytext-sect h1{
+        font-size: x-large;
+        text-align: center;
+      }
+      .flex-section {
+        margin: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .flex-section .item{
+        border-style: solid;
+        margin: 10px;
+      }
+      .flex-section .item{
+        border-style: solid;
+        margin: 10px;
+      }
+      .study-one img{
+        width: 50%;
+      }
+      .sect-two{
+        border-color: black;
+        border-style: solid;
+        background-color: grey;
+        width: 50%;
+        top: 30%;
+      }
+      .footer{
+        position: relative;
+        background-color: black;
+        color: white;
+        border-style: solid;
+        padding: 50px;
+        min-height: 200px;
+      }
+      .footer .footer-left{
+        position: absolute;
+        line-height: 4em;
+      }
+      .footer .footer-right{
+        position: absolute;
+        left: 850px;
+        width: 25%;
+        margin-left: 25px;
+      }
+      .footer .footer-right .icons{
+        word-spacing: 5em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="nav-sect">
+      <img src="/images/waterfall.jpg" />
+      <nav>
+        <ul>
+          <li><a href="#HOME">HOME</a></li>
+          <li><a href="#ABOUT">ABOUT</a></li>
+          <li><a href="#SERVICES">SERVICES</a></li>
+          <li><a href="#MY WORK">MY WORK</a></li>
+          <li><a href="#CONTACT">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="header-sect">
+      <img src="/images/waterfall.jpg" alt="waterfall" />
+      <div class="mytext-sect">
+        <h1>Hello, I am Vivian Kariuki</h1>
+        <span
+          >I use HTML and CSS to convert webpage designs into beautiful and
+          efficient websites</span>
+    </div>
+    <!--My Flex-->
+    <h2 style="text-align: center;">My Skills</h2>
+    <div class="flex-section">
+         <div class="item">1.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, sequi.</div>
+         <div class="item">1.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, sequi.</div>
+         <div class="item">1.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, sequi.</div>
+         <div class="item">1.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, sequi.</div>
+    </div>
+    <div class="study-one">
+      <img src="/images/study_group.jpeg">
+    </div>
+    <!--My Flex-->
+      <div class="sect-two">
+        <h2>My Education</h2>
+        <div class="sect">1.Web development-Lorem ipsum dolor sit amet.</div>
+        <div class="sect">2.Machine learning-Lorem ipsum dolor sit amet.</div>
+        <div class="sect">3.Artificial Intelligence-Lorem ipsum dolor sit amet.</div>
+        <div class="sect">4.Android development-Lorem ipsum dolor sit amet.</div>
+      </div>
+      <br>
+      <br> 
+      <div class="footer">
+        <ul class="footer-left">
+       <li><i class="fa-solid fa-location-dot">21 Revolution Street Paris,France</i></li>
+       <li><i class="fa-solid fa-phone">+123456789</i></li>
+       <li><i class="fa-regular fa-envelope">support@company.com</i></li>
+       </ul>
+
+       <div class="footer-right">
+       <strong>About the company</strong>
+       <br>
+       <br>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque deleniti quos iste nemo obcaecati accusantium autem omnis. Eaque, illo quae?</h3>
+       </p>
+       <ul>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+       </ul>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
